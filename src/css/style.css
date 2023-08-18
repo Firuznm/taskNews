@@ -1,0 +1,134 @@
+/*  global style start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Arsenal", sans-serif;
+}
+ul,
+li {
+    list-style: none;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+h1 {
+    width: 70%;
+    font-size: 2.7rem;
+    font-weight: 700;
+    margin: 1rem 0;
+    color: #13317f;
+}
+img {
+    width: 70%;
+    aspect-ratio: 10/6;
+    object-fit: cover;
+}
+p {
+    font-weight: 500;
+    font-size: 1.3rem;
+    padding: 1rem 0;
+    line-height: 2rem;
+    width: 70%;
+    text-align: justify;
+}
+.origin-link > a {
+    display: block;
+    text-align: center;
+    color: rgb(68, 255, 1);
+    margin: 1rem 0;
+    border: 1px solid blueviolet;
+}
+/*  global style end */
+h2 {
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.map {
+    text-align: center;
+    margin-bottom: 7rem;
+}
+.header-title {
+    background-color: #00193c;
+}
+.move-text {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    height: 45px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+}
+nav {
+    background-color: #222;
+}
+.page-list {
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.page-list li a:hover {
+    background-color: #454545;
+    padding: 12px;
+    transition: 0.15s ease-in;
+}
+
+/*  news style start */
+.all-news {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: 2rem;
+    margin: 2rem auto;
+    padding-bottom: 5rem;
+}
+.news{
+	border: 0.5px solid rgb(115, 112, 112);
+}
+.news > a {
+    height: 77.3%;  
+    padding: 0;
+ 
+}
+.news:hover {
+    box-shadow: 0 3px 9px 1px #b9b9b9;
+}
+.news img {
+    width: 100%;
+    object-fit: cover;
+}
+h6 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 1rem 2rem;
+    color: #13317f;
+}
+.like-view {
+    border: 0.5px solid rgb(115, 112, 112);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* -- news1 style start -- */
+#news1 {
+    margin-bottom: 7rem;
+}
+
+@media screen and (max-width: 1024px) {
+}
